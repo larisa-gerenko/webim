@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="64e83c14-0600-4ce8-a3cd-63ec7b4f01b3" name="Default Changelist" comment="" />
+    <list default="true" id="64e83c14-0600-4ce8-a3cd-63ec7b4f01b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1iF1uVhuKPdc8yZZzADPDkOHxHk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,16 +53,44 @@
       <workItem from="1601488749664" duration="795000" />
       <workItem from="1601539898612" duration="7298000" />
       <workItem from="1601634309753" duration="15278000" />
+      <workItem from="1601664143969" duration="383000" />
     </task>
+    <task id="LOCAL-00001" summary="git init">
+      <created>1601664392455</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601664392455</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="git init" />
+    <option name="LAST_COMMIT_MESSAGE" value="git init" />
   </component>
   <component name="WindowStateProjectService">
     <state x="525" y="226" key="SettingsEditor" timestamp="1601539977837">
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
     <state x="525" y="226" key="SettingsEditor/0.23.2048.1129@0.23.2048.1129" timestamp="1601539977837" />
+    <state x="624" y="327" key="Vcs.Push.Dialog.v2" timestamp="1601664395378">
+      <screen x="0" y="23" width="2048" height="1129" />
+    </state>
+    <state x="624" y="327" key="Vcs.Push.Dialog.v2/0.23.2048.1129@0.23.2048.1129" timestamp="1601664395378" />
   </component>
 </project>

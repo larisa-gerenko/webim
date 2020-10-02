@@ -1,0 +1,82 @@
+@media only screen and (max-device-width: 1000px) {
+  .container,
+  .installWebim > .container {
+    max-width: 80%;
+    padding-bottom: 16px;
+    padding-top: 13px;
+  }
+  button {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .text {
+    max-width: 80%;
+  }
+  .header {
+    display: none;
+  }
+  .mobileMenu {
+    height: 130px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .mobileMenu i {
+    color: #2cd3b8;
+    text-align: center;
+    font-size: 60px;
+  }
+  .mobileMenu img {
+    height: 70%;
+  }
+  .footer {
+    display: none;
+  }
+  .mobileFooter {
+    color: #ffffff;
+    padding-left: 60px;
+    background-color: #393e6b;
+    display: block;
+    height: 100px;
+    font-size: 20px;
+    padding-top: 40px;
+    line-height: 1.5;
+  }
+  .mobileFooter i {
+    color: #ffffff;
+    font-size: 14px;
+    margin-right: 3px;
+  }
+  .chat {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .chat__points {
+    width: 100%;
+  }
+
+  .textBlue {
+    font-size: 15px;
+  }
+  .point span {
+    font-size: 20px;
+    margin-right: 5px;
+  }
+  .chat p {
+    font-size: 17px;
+    max-width: 90%;
+  }
+  .chat__point {
+    width: 100%;
+  }
+  .number {
+    font-size: 100px;
+  }
+  .icon-02,
+  .icon-01 {
+    position: absolute;
+    top: 34px;
+    left: 35px;
+  }
+}

@@ -1,0 +1,298 @@
+/*Общие стили */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+}
+a {
+  color: #0da088;
+}
+.container {
+  margin: 0 auto;
+  width: 1023px;
+  padding-bottom: 83px;
+  padding-top: 75px;
+}
+.gray {
+  background-color: #eff4f4;
+}
+p {
+  color: #74757b;
+  font-size: 16px;
+}
+h2 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #393e6b;
+  text-transform: uppercase;
+}
+h3 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #393e6b;
+  text-transform: uppercase;
+}
+button {
+  border-radius: 50px;
+  height: 48px;
+  width: 265px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.button_blue {
+  background-color: #2cd3b8;
+  border: none;
+  color: #ffffff;
+  margin-right: 10px;
+}
+.button_white {
+  color: #393e6b;
+  border: 0.5px solid #393e6b;
+}
+
+.button_dark {
+  background-color: #3b4269;
+  color: #ffffff;
+  border: none;
+}
+
+.text {
+  line-height: 1.5;
+}
+.textBlue {
+  font-size: 18px;
+  color: #393e6b;
+}
+i[class^="icon-"]:before {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/*Стихи для хедера */
+.mobileMenu {
+  display: none;
+}
+.header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+.navbar-start {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin-left: 70px;
+}
+.navbar-end {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin-right: 70px;
+}
+.navbar-item {
+  text-transform: uppercase;
+  color: #393e6b;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+/*Стили для первого блока */
+
+.installWebim > .container {
+  padding-top: 75px;
+  padding-bottom: 68px;
+}
+.installWebim h2 {
+  margin-bottom: 43px;
+}
+.installWebim .text {
+  width: 600px;
+  margin-bottom: 62px;
+}
+
+/*Стили для второго блока*/
+
+.numbers {
+  display: flex;
+  justify-content: start;
+}
+.number {
+  font-weight: bold;
+  font-size: 150px;
+  color: #e8e8ec;
+}
+i {
+  color: #363b66;
+  font-size: 50px;
+}
+.reg {
+  position: relative;
+  margin-right: 100px;
+}
+
+.inst .number {
+  position: relative;
+}
+.icon-02,
+.icon-01 {
+  position: absolute;
+  top: 78px;
+  left: 41px;
+}
+
+/*Стили для третьего блока*/
+
+.installHtml a {
+  font-size: 24px;
+}
+.installHtml ul {
+  margin-left: -22px;
+}
+.installHtml li {
+  margin-top: 50px;
+}
+
+/*Стили для четвертого блока*/
+
+.installDashboard a {
+  font-size: 24px;
+}
+.installDashboard ul {
+  margin-left: -22px;
+}
+.installDashboard li {
+  margin-top: 50px;
+}
+
+/*Стили для  пятого блока*/
+
+.point {
+  display: flex;
+  margin-bottom: 30px;
+}
+.circle {
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: 74px;
+  height: 74px;
+  border-radius: 50px;
+  background-color: #2cd3b8;
+  margin-right: 37px;
+  text-align: center;
+}
+.circle i {
+  color: #ffffff;
+  font-size: 70px;
+}
+
+.point span {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/*Стили для шестого блока */
+
+.chat__points {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.chat__point {
+  display: flex;
+  margin-bottom: 47px;
+  width: 33.3%;
+}
+.chat__point i {
+  margin-right: 25px;
+  font-size: 36px;
+}
+
+.chat__link {
+  display: flex;
+  align-items: center;
+  width: 200px;
+}
+.chat {
+  padding-top: 67px;
+  padding-bottom: 76px;
+}
+.chat .textBlue {
+  width: 650px;
+  margin-bottom: 76px;
+}
+.icon-feedback {
+  color: #dab81a;
+}
+.icon-app {
+  color: #88bc17;
+}
+.icon-msn {
+  color: #3dd3a1;
+}
+.chat__point img {
+  margin-right: 32px;
+  width: 37px;
+  height: 37px;
+}
+.icon-chatbots {
+  color: #33afd1;
+}
+
+/*Стили для футера*/
+.footer {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  background-color: #393e6b;
+  color: #adb0c2;
+  height: 280px;
+  padding-top: 53px;
+}
+.leftBlock img {
+  margin-bottom: 10px;
+}
+.centerBlock > div {
+  margin-bottom: 20px;
+}
+.centerBlock .circle {
+  width: 30px;
+  height: 30px;
+}
+.centerBlock .circle i {
+  color: #ffffff;
+  font-size: 20px;
+}
+.centerBlock .call {
+  display: flex;
+  font-size: 25px;
+}
+.numberTel {
+  font-size: 20px;
+}
+.rightBlock {
+  line-height: 2;
+}
+.social {
+  display: flex;
+}
+.social i {
+  margin-top: 10px;
+  margin-right: 22px;
+  font-size: 28px;
+  color: #adb0c2;
+}
+.comment {
+  position: absolute;
+  bottom: 0px;
+  right: 34px;
+}
+.comment i {
+  color: #06d6d6;
+  font-size: 54px;
+}

@@ -34,6 +34,21 @@ h3 {
   color: #393e6b;
   text-transform: uppercase;
 }
+h2,
+h3 {
+  animation: appear 1.5s linear;
+}
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 button {
   border-radius: 50px;
   height: 48px;

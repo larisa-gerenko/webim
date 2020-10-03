@@ -311,3 +311,6 @@ i {
   color: #06d6d6;
   font-size: 54px;
 }
+.mobileFooter {
+  display: none;
+}
